@@ -1,6 +1,6 @@
 # Python Is Easy homework. All about variales
 
-# Favorite Song
+# Favorite Song Stats
 song = "Golden Days"
 artist = "Pan!c at the Disco"
 genre = "alternative pop-rock"
