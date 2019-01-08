@@ -18,15 +18,12 @@ def iLoveRapMusic():
     return False
 
 def iLoveRockMusic():
-    return False
+    return True
 
 
 print(Genre())
 print(Artist())
-print(Year());
+print(Year())
 
 print(iLoveRapMusic())
 print(iLoveRockMusic())
-
-if iLoveRockMusic():
-    print("Fuck yeah!")
