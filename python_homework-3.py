@@ -33,13 +33,11 @@ def checkEqualityOfTwo(var1, var2, var3):
 """
 Pass in a number string
 """
-if checkEqualityOfTwo("4", 12, 4) == True:
+var1 = "6"
+var2 = 12
+var3 = 6
+
+if checkEqualityOfTwo(var1, var2, var3) == True:
     print("At least two values are equal")
-
-
-if checkEqualityOfTwo(1, 10, 12) == False:
-    print("No equal values")
-
-
-
-    
+else:
+    print("No Equal Numbers")
