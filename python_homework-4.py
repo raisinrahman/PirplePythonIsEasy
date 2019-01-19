@@ -9,10 +9,10 @@ as it is unique
 """
 def addToMyList(valueToAdd):
     if valueToAdd in myUniqueList:
-        myLeftOvers.append(valueToAdd)
+        myLeftOvers.append(valueToAdd) #value exists, add to Left Overs
         return False
     else:
-        myUniqueList.append(valueToAdd)
+        myUniqueList.append(valueToAdd) #value does not exist, add it
         return True
 
 
